@@ -21,6 +21,6 @@ Lo vamos a dividir de la siguiente manera:
 │   │   └── icon.png
 │   └── src
 └── views
-    └── alquiler_producto.xml 
+    └── alquiler_producto_views.xml 
 
 ```
