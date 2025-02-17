@@ -5,11 +5,11 @@
     "category": "Custom",
     "author": "Héctor Martín",
     "license": "LGPL-3",
-    "depends": ["base", "mail"],
-    "icon": "/alquiler_producto/static/description/icon.png",
-    "data": [
-        "views/alquiler_producto_views.xml",
-        "security/ir.model.access.csv"
+    'depends': ['base', 'sale', 'product'],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/cron.xml',
+        'views/alquiler_producto_views.xml',
     ],
     "application": True,
     "installable": True,
